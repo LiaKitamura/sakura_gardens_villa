@@ -13,3 +13,22 @@
  */
  @import "bootstrap-sprockets";
  @import "bootstrap";
+
+ $bgDefault      : #144581;
+
+// Navbar
+ .navbar {
+   background-color: $bgDefault;
+ }
+.wht-txt {
+  color: #FFF !important;
+}
+
+// home
+.home {
+  margin-top: 100px;
+}
+hr {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
