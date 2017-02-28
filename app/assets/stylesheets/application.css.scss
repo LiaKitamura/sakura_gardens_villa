@@ -11,15 +11,17 @@
  * It is generally better to create a new file per style scope.
  *
  */
- @import "bootstrap-sprockets";
- @import "bootstrap";
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
- $bgDefault      : #144581;
+$bgDefault      : #144581;
 
 // Navbar
- .navbar {
-   background-color: $bgDefault;
- }
+.navbar {
+  background-color: $bgDefault;
+}
 .wht-txt {
   color: #FFF !important;
 }
