@@ -22,6 +22,9 @@ $bgDefault      : #144581;
 .navbar {
   background-color: $bgDefault;
 }
+.navbar-brand {
+  padding-top: 2px;
+}
 .wht-txt {
   color: #FFF !important;
 }
