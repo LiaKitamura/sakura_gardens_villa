@@ -64,3 +64,18 @@ footer {
 .section-header {
   margin-bottom: 50px;
 }
+
+@media (min-width: 1200px) {
+  .carousel-outer {
+    margin-top: 15px;
+  }
+  .sgv-title {
+    margin: 0;
+  }
+  p {
+    font-size: 1.2em;
+  }
+  li {
+    font-size: 1.1em;
+  }
+}
