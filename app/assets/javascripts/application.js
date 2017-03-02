@@ -33,4 +33,6 @@ $(function() {
   $('.carousel').carousel({
     interval: 4500
   });
+  // tooltip
+  $('[data-toggle="tooltip"]').tooltip();
 });
