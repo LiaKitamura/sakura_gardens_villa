@@ -16,6 +16,7 @@
 //= require_tree .
 
 $(function() {
+  // smooth scrolling
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -27,5 +28,9 @@ $(function() {
         return false;
       }
     }
+  });
+  // carousel
+  $('.carousel').carousel({
+    interval: 4500
   });
 });
